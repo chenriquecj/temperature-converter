@@ -31,6 +31,9 @@ int main (){
     std::cout << "Enter your choice (1-4): ";
     std::cin >> choice;
 
+    std::cout << "Enter the temperature: ";
+    std::cin >> temperature;
+
     switch (choice)
     {
     case 1:
